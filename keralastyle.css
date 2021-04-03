@@ -1,0 +1,295 @@
+/* trivandrum */
+nav {
+background-image:linear-gradient(rgb(53, 221, 221), rgb(46, 29, 109));
+}
+
+nav #navbarTogglerDemo01 .navbar-brand img{
+   border-radius: 5px;
+  
+   
+
+}
+h1{
+    
+    text-shadow: blue;
+    
+}
+.container .image img{
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 230px;
+
+
+}
+.container p{
+    text-align: justify;
+    margin-top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    word-spacing: 1.7px;
+    line-height: 25px;
+    
+}
+.row h2{
+    background-color: cadetblue ;
+    line-height: 50px;
+    background-blend-mode: color-dodge;
+    margin-top: 110px;
+    text-align:center;
+}
+
+/* places to visit */
+.row
+    {
+        box-sizing: border-box;
+        margin:5px;
+        
+    
+     }
+.column {
+        float:left;
+        width: 23%;
+        line-height: 100px;
+        padding: 0 12px;
+ }
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 50px;
+    height: 350px;   
+    
+}
+.row .column img{
+    height:200px;
+}
+
+.column h3{
+    background-color:lightseagreen ;
+    
+}
+/* login */
+
+.form {
+    border: 3px solid #f1f1f1;
+    margin-left: 450px;
+    height: 600px;
+    width: 450px;
+    background-color: lightsteelblue;
+   
+   
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.form h2{
+    text-align: center;
+}
+/* Sign Up */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  form .Signup{
+    margin-left: 350px;
+    padding: 16px;
+    border: 2px solid lightslategray;
+    background-color: lightsteelblue;
+    height: 1000px;
+    width: 650px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+/*------------------------ Gris system-------------------------- */
+.grid {
+    background-image:linear-gradient(rgb(53, 221, 221), rgb(46, 29, 109));
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+
+  .grid .column1 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 23%;
+    margin: 5px;
+    padding: 0px 3px;
+    margin-left: 20px;
+    
+  }
+  .grid .column1 h3{
+      background-color: lightskyblue;
+      text-align: center;
+  }
+  
+  .grid .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height:75% ;
+    
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column1 {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1 {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .header {
+    text-align: center;
+    padding: 30px;
+    background-color: lightskyblue;
+  }
+  .grid .align img{
+      height: 200px;
+  }
+  marquee{
+    font-weight: bold;
+    color:lightgrey;
+    background-image: linear-gradient(blue,grey);
+  }
